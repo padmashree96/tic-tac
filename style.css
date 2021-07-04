@@ -11,6 +11,7 @@ table {
   }
   p {
     font-size: 40px;
+    color: purple;
   }
 
   table tr:first-child td {
@@ -32,4 +33,8 @@ table {
   body {
     display: flex;
     justify-content: center;
+    background-image: linear-gradient(to bottom,rgb(248, 207, 214),purple);
+  }
+  .cell{
+    color:darkblue;
   }
